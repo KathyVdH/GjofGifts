@@ -1,0 +1,157 @@
+body {
+  font-family: "Comfortaa";
+  color: #3B0101;
+  background-image: url("patroonKrullen1.png");
+}
+/*hoofdtitel*/
+h1 {
+  font-family: "Kaushan Script";
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 550%;
+  margin-bottom: 0.3em;
+}
+.achterlogo {
+  height: 8em;
+  width: 80%;
+  padding-bottom:4em;
+  background-color: white;
+  border:5px solid #3B0101;
+  border-bottom:5px solid transparent;
+}
+.wittekader {
+  background-color:white;
+  width: 80%;
+  opacity: 1;
+  height:100%;
+  border: 5px solid #3B0101;
+  border-top: 5px solid white;
+  margin-bottom: 1em;
+}
+/*lange balk*/
+nav {
+  text-align: center;
+  background-color: #3B0101;
+  padding:1em;
+  width:110.2%;
+  margin-left:-8%;
+  box-shadow: 5px 6px 4px rgba(255, 255, 255, 0.85);
+}
+/*links uit lange balk*/
+nav li {
+  display: inline;
+  word-spacing: 5em;
+  font-size: 150%;
+  color:white;
+}
+/*Titels*/
+h2 {
+  font-family: "Kaushan Script";
+  text-align: center;
+  font-size: 400%;
+  margin-top: 0.6em;
+}
+/*Ondertitels*/
+h3 {
+  margin-top:-1em;
+  font-family: "Kaushan Script";
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 0.5em;
+}
+p {
+  font-size: 130%;
+  text-align: left;
+  line-height: 1.2em;
+  width:70%;
+  margin: auto;
+  margin-bottom: 1em;
+  opacity: 1;
+}
+.verborgen {
+  display: none;
+}
+div {
+  height: 50em;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#naam {
+    margin-top: 1em;
+}
+#kadercontact {
+  height: 100%;
+}
+a:hover {
+  cursor:pointer;
+}
+.logo {
+  width: 20%;
+  position: absolute;
+  top: 7em;
+  left: 45em;
+  z-index: 10;
+}
+.wittekader2 {
+  background-color:white;
+  width: 80%;
+  opacity: 1;
+  height:50em;
+  border: 5px solid #3B0101;
+  margin-top: -47.5em;
+}
+.slagzin {
+  position: absolute;
+  z-index: 10;
+  left: 14.2em;
+  top: 9.8em;
+  margin-top:1em;
+  font-size: 290%;
+  text-shadow: 0 0 5px #3B0101;
+}
+.volgende {
+  position: absolute;
+  z-index: 10;
+  font-size: 250%;
+  left: 17.9em;
+  top: 13em;
+}
+.loader:after {
+  content: '';
+  position: absolute;
+  box-shadow: inset 4px 0 2px 0px #3B0101, inset 0px 1px 0px 0px #3B0101;
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  z-index:10;
+  top: 39em;
+  left: 49.6em;
+  transform: rotate(210deg);
+}
+.linkhome {
+  position: absolute;
+  color: #3B0101;
+  text-align: center;
+  font-size: 250%;
+  font-family: "Kaushan script";
+  top: 16.2em;
+  left: 21.4em;
+  z-index:10;
+}
+.facebook {
+  width: 3%;
+  margin-right: 0.2em;
+}
+.twitter {
+  width: 3%;
+  margin-right: 0.2em;
+}
+footer {
+  margin-top: 2em;
+  position: absolute;
+  z-index: 5;
+  bottom: -2em;
+  word-spacing: 10em;
+}
