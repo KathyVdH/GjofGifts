@@ -1,7 +1,7 @@
 body {
   font-family: "Comfortaa";
   color: #3B0101;
-  background-image: url("patroontje.png");
+  background-image: url("patroontje-01.png");
 }
 /*hoofdtitel*/
 h1 {
@@ -148,4 +148,17 @@ footer {
   left: 35%;
   font-size: 130%;
   line-height: 1.2em;
+}
+
+
+
+@media  (max-width: 1720px) {
+
+}
+
+@media  (max-width: 900px) {
+
+}
+
+@media  (max-width: 600px) {
 }
